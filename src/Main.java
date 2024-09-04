@@ -48,7 +48,7 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("LISTA DE ANIMAIS CADASTRADOS");
-                    for (int i = 0; i <= animais.size(); i++) {
+                    for (int i = 0; i < animais.size(); i++) {
                         System.out.println(animais.size());
                         System.out.println("ANIMAL " + i);
                         System.out.println("NOME: " + animais.get(i).getNome());
@@ -61,7 +61,8 @@ public class Main {
                         System.out.println("DIETA: " + animais.get(i).getDieta());
                         System.out.println("EXPECTATIVA DE VIDA: " + animais.get(i).getExpectativaDeVida());
                         System.out.println("ORIGEM GEOGRAFICA: " + animais.get(i).getOrigemGeografica());
-                        System.out.println("-------------------------------");
+                        System.out.println("--------------------------");
+                        System.out.println();
                     }
                     break;
                 case 3:
